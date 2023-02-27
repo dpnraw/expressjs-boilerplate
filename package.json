@@ -1,0 +1,29 @@
+{
+  "name": "blogexpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.7",
+    "express-validator": "^6.15.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.10.0",
+    "yup": "^1.0.1"
+  },
+  "nodemonConfig": {
+    "ext": "js,html,handlebars"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
